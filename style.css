@@ -1,0 +1,94 @@
+h1 {
+  text-align: center;
+  font-weight: 100;
+  color: #cc6600;
+  margin: 40px 0;
+}
+
+.grid-container1 {
+  display: grid;
+  grid-template-columns: repeat(2, 60% 40%);
+  height: calc(100vh - 10px);
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.hidden {
+  display: none;
+}
+
+.uusi_peli {
+  padding: 5px;
+  height: 40px;
+  width: 100px;
+  color: white;
+  border-radius: 5px;
+  background-color: #71cecb;
+  border: none;
+  font-size: 14px;
+  margin-top: 35px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  background-color: #48D1CC;
+  grid-column-gap: 3px;
+  grid-row-gap: 3px;
+  padding: 3px;
+  box-sizing: border-box;
+  min-height: 100vh;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
+  padding: 20px;
+  font-size: 7vw;
+  align-items: center;
+  color: #ff9900;
+  display: flex;
+  justify-content: center;
+}
+
+.grid-item1 {
+  margin-left: 20px;
+  font-family: Helvetica, sans-serif;
+}
+
+.aloita-nappi {
+  background-color: #ff9900;
+  color: white;
+  border: #ff9900
+}
+
+.button {
+  padding: 5px;
+  height: 49px;
+  width: 49px;
+  color: white;
+  border-radius: 5px;
+  background-color: #ff9900;
+  border: none;
+  font-size: 14px;
+}
+
+.grid-container3 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: 40px auto 0;
+  max-width: 150px;
+}
+
+.alert-success {
+  background-color: #ecf8f8;
+  border: none;
+}
+
+.kontrollit {
+  margin: 40px 20px;
+}

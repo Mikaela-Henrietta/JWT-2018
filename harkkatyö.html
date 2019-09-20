@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+  <meta charset="utf-8" />
+  <title>harkkatyö</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="grid-container1">
+    <div class="grid-item1">
+      <img src="tie.png" alt="tie" id="tie">
+      <div class="grid-container" id="grid">
+      </div>
+    </div>
+    <div class="grid-item1">
+      <h1>JWT seikkailupeli</h1>
+      <div class="kontrollit">
+        <div class="input-group mb-3" id="nimiKenttä">
+          <input type="text" class="form-control" required="required" placeholder="Anna pelaajan nimi">
+          <div class="input-group-append">
+            <button class="btn btn-outline-secondary aloita-nappi" type="button" id="aloita">Aloita</button>
+          </div>
+        </div>
+        <div id="onGame" style="display:none">
+          <div class="alert alert-success" role="alert">
+            <b>Nimi: </b><span id="onGameNimi"></span>
+          </div>
+          <div class="alert alert-success" role="alert">
+            <b>Pisteet: </b><span id="pisteet"></span>
+          </div>
+
+          <div class="grid-container3">
+            <div class="gridinsisalto"></div>
+            <div class="gridinsisalto"><button id="ylosButton" class="button">Ylös</button></div>
+            <div class="gridinsisalto"></div>
+            <div class="gridinsisalto"><button id="vasenButton" class="button">Vasen</button></div>
+            <div class="gridinsisalto"></div>
+            <div class="gridinsisalto"><button id="oikeaButton" class="button">Oikea</button></div>
+            <div class="gridinsisalto"></div>
+            <div class="gridinsisalto"><button id="alasButton" class="button">Alas</button></div>
+            <div class="gridinsisalto"></div>
+          </div>
+          <button id="uusiPeli" class="uusi_peli">Uusi peli</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./script_t.js">
+  </script>
+</body>
